@@ -1,0 +1,37 @@
+{
+
+	"geocodes" : {
+		"bangalore" : "12.97,77.59",
+		"hyderabad" : "17.38,78.48",
+		"delhi" : "28.70,77.10",
+		"chennai" : "13.08,80.27",
+		"mumbai" : "19.07,72.87",
+		"pune" : "18.52,73.85",
+		"kolkata" : "22.57,88.36",
+		"gurgaon" : "28.54,77.02",
+		"noida" : "28.53,77.39"
+	},
+	"forecast_type" : {
+		"1" : "Daily",
+		"2" : "Monthly",
+		"3" : "Hourly"
+	},
+	"Daily_forecast" : {
+		"URL" : "https://api.weather.com/v2/turbo/vt1dailyForecast",
+		"params" : {
+			"apiKey" : "d522aa97197fd864d36b418f39ebb323",
+			"format" : "json",
+			"geocode" : "12.97,77.60",
+			"language" : "en-IN",
+			"units" : "m"
+		}
+	},
+	"Monthly_forecast" : {
+		"params" : {
+			"apiKey" : "d522aa97197fd864d36b418f39ebb323",
+			"start" : "1101",
+			"end" : "1231",
+			"units" : "m"
+		}
+	}
+}
